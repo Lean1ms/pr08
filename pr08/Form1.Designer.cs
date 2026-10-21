@@ -108,18 +108,9 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(483, 305);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(pictureBox1);
-            Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            ClientSize = new Size(850, 493);
             Name = "Form1";
             Text = "ПР08 Удалённые ветки";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
