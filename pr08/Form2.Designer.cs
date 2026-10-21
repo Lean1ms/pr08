@@ -36,15 +36,19 @@
             comboBox1 = new ComboBox();
             label3 = new Label();
             comboBox2 = new ComboBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = SystemColors.GradientInactiveCaption;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(420, 206);
+            dataGridView1.Location = new Point(3, 67);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(240, 150);
+            dataGridView1.Size = new Size(899, 400);
             dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -97,11 +101,44 @@
             comboBox2.Size = new Size(162, 29);
             comboBox2.TabIndex = 6;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.Chartreuse;
+            button1.Location = new Point(3, 493);
+            button1.Name = "button1";
+            button1.Size = new Size(230, 62);
+            button1.TabIndex = 7;
+            button1.Text = "Найти";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.MediumSpringGreen;
+            button2.Location = new Point(330, 493);
+            button2.Name = "button2";
+            button2.Size = new Size(235, 62);
+            button2.TabIndex = 8;
+            button2.Text = "Сбросить";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.MediumSpringGreen;
+            button3.Location = new Point(672, 498);
+            button3.Name = "button3";
+            button3.Size = new Size(230, 62);
+            button3.TabIndex = 9;
+            button3.Text = "Выход";
+            button3.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 630);
+            ClientSize = new Size(914, 572);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(comboBox2);
             Controls.Add(label3);
             Controls.Add(comboBox1);
@@ -111,7 +148,7 @@
             Controls.Add(dataGridView1);
             Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form2";
             Text = "ПР08 Удалённые ветки";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -128,5 +165,8 @@
         private ComboBox comboBox1;
         private Label label3;
         private ComboBox comboBox2;
+        private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }
